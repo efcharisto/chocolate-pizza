@@ -1,0 +1,70 @@
+body {
+  background-color: white;
+  margin-left: 200px;
+  /*margin: auto;*/
+}
+
+header {
+  overflow: auto;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+}
+
+.forkAndKnife {
+  float:left;
+  margin: 1px;
+  /*height: 200px; change pic size to see where text shows in relation to it
+  width: 200px;*/
+}
+
+#printer1 {
+  float: right;
+  font-family: Eurostile, sans-serif;
+  font-size: 15px;
+  margin-top: auto;
+  color:grey;
+}
+
+#delicious {
+  font-family: Lucida Calligraphy, sans-serif;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top:auto;
+  margin-bottom: auto;
+  width: 200px;
+}
+
+#bestFood {
+  font-family: Eurostile, sans-serif;
+  font-size: 10px;
+  width: 200px;
+  float: left;
+  margin-left: 5px;
+  margin-top: auto;
+}
+
+
+#topBorder {
+  height: 20px;
+  width: 901px;
+  margin: 1px;
+  background-image:
+   repeating-linear-gradient(
+     45deg,
+     white,
+     white 6px,
+     black 2px,
+     black 8px /* determines size */
+   );
+}
+
+#page {
+  width: 901px;
+}
