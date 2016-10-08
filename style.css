@@ -4,6 +4,22 @@ body {
   /*margin: auto;*/
 }
 
+.repeat {
+  width: 100px;
+  height: 100px;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent , /*  starting colour */
+      transparent 1px, /* ending colour before black line */
+      transparent 1px, /* start of another stripe */
+      black 2px /* determines size. END of 2nd stripe */
+    );
+}
+
+
+
+
 .delicious {
   font-family: Lucida Calligraphy, sans-serif;
   font-size: 20px;
