@@ -17,19 +17,20 @@ nav li {
   display: inline;
 }
 
+#topLeftElements {
+  float:left;
+  margin: 1px;
+}
+
+#icons {
+  float: right;
+}
+
 .forkAndKnife {
   float:left;
   margin: 1px;
   /*height: 200px; change pic size to see where text shows in relation to it
   width: 200px;*/
-}
-
-#printer1 {
-  float: right;
-  font-family: Eurostile, sans-serif;
-  font-size: 15px;
-  margin-top: auto;
-  color:grey;
 }
 
 #delicious {
@@ -50,7 +51,6 @@ nav li {
   margin-top: auto;
 }
 
-
 #topBorder {
   height: 20px;
   width: 901px;
@@ -63,6 +63,14 @@ nav li {
      black 2px,
      black 8px /* determines size */
    );
+}
+
+#printer1 {
+  float: right;
+  font-family: Eurostile, sans-serif;
+  font-size: 15px;
+  margin-top: auto;
+  color:grey;
 }
 
 #page {
