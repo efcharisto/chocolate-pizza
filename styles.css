@@ -56,23 +56,23 @@ nav li {
   width: 901px;
   margin: 1px;
   background-image:
-   repeating-linear-gradient(
-     45deg,
-     white,
-     white 6px,
-     black 2px,
-     black 8px /* determines size */
-   );
-}
+  repeating-linear-gradient(
+    45deg,
+    white,
+    white 6px,
+    black 2px,
+    black 8px /* determines size */
+    );
+  }
 
-#printer1 {
-  float: right;
-  font-family: Eurostile, sans-serif;
-  font-size: 15px;
-  margin-top: auto;
-  color:grey;
-}
+  #printer1 {
+    float: right;
+    font-family: Eurostile, sans-serif;
+    font-size: 15px;
+    margin-top: auto;
+    color:grey;
+  }
 
-#page {
-  width: 901px;
-}
+  #page {
+    width: 901px;
+  }
