@@ -4,34 +4,46 @@ body {
   /*margin: auto;*/
 }
 
-nav li {
-  display: inline;
+header {
+  overflow: auto;
+  width: 100%;
+}
+
+nav ul {
   float: right;
 }
 
-.delicious {
-  font-family: Lucida Calligraphy, sans-serif;
-  font-size: 20px;
-  margin: 1px;"
-}
-.bestFood {
-  font-family: Eurostile, sans-serif;
-  font-size: 10px;
-  margin: 1px;"
-  float: left;
-  margin-right: 200px;
+nav li {
+  display: inline;
 }
 
 .forkAndKnife {
   float:left;
-  margin: 1px;"
+  margin: 1px;
   /*height: 200px; change pic size to see where text shows in relation to it
   width: 200px;*/
 }
 
+#delicious {
+  font-family: Lucida Calligraphy, sans-serif;
+  font-size: 25px;
+  margin-left: 10px;
+  width: 200px;
+}
+
+#bestFood {
+  font-family: Eurostile, sans-serif;
+  font-size: 10px;
+  width: 200px;
+  margin: 1px;
+  float: left;
+}
+
+
 #topBorder {
   height: 20px;
   width: 901px;
+  margin: 1px;
   background-image:
    repeating-linear-gradient(
      45deg,
