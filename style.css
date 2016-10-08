@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  margin-left: 200px;
+  /*margin: auto;*/
+}
+
+.delicious {
+  font-family: Lucida Calligraphy, sans-serif;
+  font-size: 20px;
+  margin: 1px;"
+}
+.bestFood {
+  font-family: Eurostile, sans-serif;
+  font-size: 10px;
+  margin: 1px;"
+  float: right;
+  /*margin-right: 200px;*/
+}
+
+.forAndKnife {
+  float:left;
+  margin: 1px;"
+  /*height: 200px; change pic size to see where text shows in relation to it
+  width: 200px;*/
+}
