@@ -17,6 +17,11 @@ nav li {
   display: inline;
 }
 
+#header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #topLeftElements {
   float:left;
   margin: 1px;
@@ -52,16 +57,16 @@ nav li {
 }
 
 #topBorder {
-  height: 20px;
+  height: 15px;
   width: 901px;
   margin: 1px;
   background-image:
   repeating-linear-gradient(
     45deg,
     white,
-    white 6px,
-    black 2px,
-    black 8px /* determines size */
+    white 2px,
+    black 1px,
+    black 3px /* determines size */
     );
   }
 
